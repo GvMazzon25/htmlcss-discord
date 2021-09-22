@@ -50,6 +50,10 @@ p{
     line-height: 32px;
 }
 
+.mg-lft-50{
+    margin-left: 200px;
+}
+
 .mg-btt-100{
     margin-bottom: 100px;
 }
