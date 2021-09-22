@@ -47,6 +47,9 @@ p{
     line-height: 32px;
 }
 
+.mg-btt-130{
+    margin-bottom: 130px;
+}
 
 /*Background-Colors*/
 .b-white{
@@ -55,6 +58,10 @@ p{
 
 .b-black{
     background-color: #000;
+}
+
+.b-grey{
+    
 }
 
 /*Colors*/
@@ -82,7 +89,7 @@ header nav{
 
 /*Navigation*/
 
-.container .float{
+nav .float{
     padding: 20px 0 15px 0;
 }
 
@@ -104,7 +111,6 @@ header nav{
 
 aside{
     width:20%;
-    position: relative;
 }
 
 sidebar{
@@ -123,6 +129,8 @@ sidebar{
 
 /*Header info*/
 
+
+
 .title{
     color: white;
     font-size: 60px;
@@ -130,7 +138,7 @@ sidebar{
     margin-bottom: 40px;
 }
 
-.container p{
+.title-size p{
     font-size: 25px;
     text-align: center;
     color: white;
@@ -156,3 +164,21 @@ sidebar{
     position: relative;
     top: 40px;
 }
+
+/*Main*/
+.control{
+    padding-top: 35px;
+    width: 25%;
+}
+
+.title2{
+    font-size: 45px;
+    color: #000;
+}
+
+.control p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+
