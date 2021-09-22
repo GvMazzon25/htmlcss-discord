@@ -51,6 +51,10 @@ p{
     margin-bottom: 130px;
 }
 
+main{
+    width: 100%;
+}
+
 /*Background-Colors*/
 .b-white{
     background-color: white;
@@ -60,7 +64,7 @@ p{
     background-color: #000;
 }
 
-.b-grey{
+.b-gray{
     background-color: rgba(246, 246, 246, 1);
 }
 
