@@ -61,7 +61,7 @@ p{
 }
 
 .b-grey{
-    
+    background-color: rgba(246, 246, 246, 1);
 }
 
 /*Colors*/
@@ -169,6 +169,11 @@ sidebar{
 .control{
     padding-top: 35px;
     width: 25%;
+}
+
+.control2{
+    width: 55%;
+    margin-left: 250px;
 }
 
 .title2{
