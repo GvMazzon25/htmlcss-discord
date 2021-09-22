@@ -15,6 +15,7 @@
     width: 80%;
     height: auto;
     margin: auto;
+    position: relative;
 }
 
 .clearfix::after{
@@ -27,11 +28,48 @@
     float: left;
 }
 
+.button{
+    border-radius: 10px;
+    padding: 12px 20px 12px 20px;
+}
 
-/*Header Secton*/
+.big-button{
+    border-radius: 20px;
+    padding: 12px 30px 12px 30px;
+    height: 60px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 32px;
+}
+
+
+/*Background-Colors*/
+.b-white{
+    background-color: white;
+}
+
+.b-black{
+    background-color: #000;
+}
+
+/*Colors*/
+.white{
+    color: white;
+}
+
+.black{
+    color: #000;
+}
+
+/*Header Section*/
 
 header nav{
-    background-color: rgba(49, 97, 224, 1);
+    background-color: rgb(39, 94, 245);
 }
 
 .header-img{
@@ -45,14 +83,76 @@ header nav{
 /*Navigation*/
 
 .container .float{
-    padding: 10px;
+    padding: 20px 0 15px 0;
+}
+
+.float ul{
+    text-align: center;
+    padding-top: 6px;
 }
 
 .float li{
     display: inline-block;
-    text-decoration: none;
     color: white;
-    margin-left: 15px;
+    margin-left: 40px;
 }
 
+.float li a{
+    color: white;
+    font-weight: 600;
+}
 
+aside{
+    width:20%;
+    position: relative;
+}
+
+sidebar{
+    width: 60%;
+}
+
+.float span a{
+    display: inline-block;
+    width: auto;
+    width: auto;
+    color: #000;
+    font-size: 15px;
+    vertical-align: middle;
+    right: 5px;
+}
+
+/*Header info*/
+
+.title{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.title-size{
+    width: 70%;
+    margin: auto;
+    position: relative;
+    top: 120px;
+}
+
+.button-head{
+    width: 80%;
+    margin: auto;
+}
+
+.button-head span a{
+    display: inline-block;
+    height: auto;
+    margin-right: 20px;
+    font-size: 25px;
+    position: relative;
+    top: 40px;
+}
