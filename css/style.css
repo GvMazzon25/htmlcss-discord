@@ -13,9 +13,8 @@
 
 .container{
     width: 80%;
-    height: auto;
+    height: 100%;
     margin: auto;
-    position: relative;
 }
 
 .clearfix::after{
@@ -47,17 +46,21 @@ p{
     line-height: 32px;
 }
 
-.mg-btt-130{
-    margin-bottom: 130px;
+.mg-btt-100{
+    margin-bottom: 100px;
 }
 
-.pd-bt-tp-150{
-    padding-top: 150px;
-    padding-bottom: 150px;
+.pd-bt-tp-100{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 main{
     width: 100%;
+}
+
+.text-align{
+    text-align: center;
 }
 
 /*Background-Colors*/
@@ -162,12 +165,14 @@ sidebar{
 
 .button-head{
     width: 80%;
+    height: 100%;
     margin: auto;
 }
 
+
 .button-head span a{
     display: inline-block;
-    height: auto;
+    height: 100%;
     margin-right: 20px;
     font-size: 25px;
     position: relative;
@@ -175,6 +180,7 @@ sidebar{
 }
 
 /*Main*/
+
 .control{
     padding-top: 35px;
     width: 25%;
@@ -193,6 +199,37 @@ sidebar{
 .control p{
     font-size: 20px;
     margin-top: 15px;
+    font-weight: 500;
 }
+
+/*Photo section*/
+
+.section5{
+    position: relative;
+}
+
+.section5 h1{
+    margin-bottom: 20px;
+}
+
+.section5 p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section5 img{
+    display: inline;
+    width: 80%;
+    height: auto;
+}
+
+.download{
+    background-image: url(../img/stars.svg);
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 
 
