@@ -27,6 +27,10 @@
     float: left;
 }
 
+.float-right{
+    float: right;
+}
+
 .button{
     border-radius: 10px;
     padding: 12px 20px 12px 20px;
@@ -53,6 +57,14 @@ p{
 .pd-bt-tp-100{
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.pd-tpp-100{
+    padding-bottom: 100px;
+}
+
+.pd-tp-100{
+    padding-top: 200px;
 }
 
 main{
@@ -133,7 +145,7 @@ aside{
     width:20%;
 }
 
-sidebar{
+.sidebar{
     width: 60%;
 }
 
@@ -148,8 +160,6 @@ sidebar{
 }
 
 /*Header info*/
-
-
 
 .title{
     color: white;
@@ -214,6 +224,7 @@ sidebar{
 
 .section5{
     position: relative;
+    padding-bottom: 100px;
 }
 
 .section5 h1{
@@ -252,5 +263,76 @@ sidebar{
     font-size: 30px;
 }
 
+/*Footer Section*/
+.end-page{
+    width: 100%;
+    height: 1500px;
+}
 
+/*Side Bar*/
+.smallside{
+    width: 15%;
+}
+
+.bigside{
+  width: 40%;  
+}
+
+.bigside h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.bigside span{
+    display: block;
+    padding-top: 25px;
+}
+
+.bigside span img{
+    width: 30px;
+    height: auto;
+    object-fit: contain;
+    vertical-align: middle;
+}
+
+#icons{
+    margin-top: 25px;
+}
+
+#icons i{
+    display: inline;
+    font-size: 25px;
+    color: white;
+    padding-right: 20px;
+}
+
+.smallside span{
+    font-weight: bold;
+    font-size: 20px;
+    display: block;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.smallside span:first-child{
+    color: rgba(142, 161, 225, 1);
+}
+
+.line{
+    border-color: rgba(142, 161, 225, 1);
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.foot img{
+    padding-top: 50px;
+    width: 200px;
+    height: auto;
+}
+
+.foot span a{
+    margin-top: 50px;
+}
 
